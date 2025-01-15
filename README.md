@@ -59,3 +59,11 @@ npm run build
 # or
 yarn build
 ```
+
+### Test
+
+```bash
+Test User
+email: test1234@gmail.com
+password: test1234
+```
