@@ -6,11 +6,10 @@ import Link from "next/link";
 
 // Define the type for a post
 interface Post {
+  name: string;
   id: string;
   question: string;
   company: string;
-  role: string;
-  notes: string;
   createdAt: string;
 }
 
@@ -89,7 +88,7 @@ export default function UserDashboard() {
                 <h2 className="text-xl font-semibold mb-2">{post.question}</h2>
                 <p className="text-gray-600 mb-2">
                   <span className="font-semibold">Company:</span>{" "}
-                  {post.company || "N/A"}
+                  {post.name || "N/A"}
                 </p>
                 <p className="text-gray-600 mb-4">
                   <span className="font-semibold">Submitted on:</span>{" "}
