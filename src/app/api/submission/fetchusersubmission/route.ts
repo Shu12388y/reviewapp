@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from "next/server";
+import { NextResponse } from "next/server";
 import { headers } from "next/headers";
 import { DB } from "@/utils/db";
 import Review from "@/models/review.model";
@@ -6,7 +6,7 @@ import jwt, { JwtPayload } from "jsonwebtoken";
 
 
 DB()
-export const POST = async (_: NextRequest) => {
+export const POST = async () => {
   try {
 
     const Header = await headers();

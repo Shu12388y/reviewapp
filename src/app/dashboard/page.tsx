@@ -78,7 +78,7 @@ export default function UserDashboard() {
           {/* Empty State */}
           {!isLoading && !error && posts.length === 0 && (
             <div className="text-center text-gray-600">
-              You haven't submitted any posts yet.
+              You haven&apos;t submitted any posts yet.
             </div>
           )}
 

@@ -104,15 +104,15 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <p className="text-gray-600 mb-4">
-                "InterviewPrep helped me land my dream job at Google! The
-                questions were spot-on."
+                &quot;InterviewPrep helped me land my dream job at Google! The
+                questions were spot-on.&quot;
               </p>
               <p className="text-gray-800 font-semibold">- John Doe</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <p className="text-gray-600 mb-4">
-                "I love how easy it is to contribute and learn from others.
-                Highly recommend!"
+              &quot;I love how easy it is to contribute and learn from others.
+                Highly recommend!&quot;
               </p>
               <p className="text-gray-800 font-semibold">- Jane Smith</p>
             </div>
